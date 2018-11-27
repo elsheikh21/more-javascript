@@ -9,7 +9,7 @@
 function fetchElements(root) {
   // create to be return array of elements
   var arrayOfEl = [];
-  var rootChildren = root.children(); // array
+  var rootChildren = root.children; // array
   // fetch length to find no of children
   var rootChildrenLength = rootChildren.length;
   // stopping condition for the recursive method
